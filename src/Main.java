@@ -43,8 +43,21 @@ public class Main {
         var boxerBoth = boxerTwo + boxerTwo;
         System.out.println("Вес обоих бойцов " + boxerBoth);
         var boxerDiff = boxerTwo - boxerOne;
-        System.out.println("разниц между весами бойцов " + boxerDiff + " кг");
+        System.out.println("разница между весами бойцов " + boxerDiff + " кг");
 
+        var boxerMinus = boxerTwo - boxerOne;
+        System.out.println("Вес второго бойца больше чем первого на " + boxerMinus + " кг");
+        var boxerBalance = boxerTwo % boxerOne;
+        System.out.println("Вес второго бойца больше чем первого на " + boxerBalance + " кг");
+
+        var workTime = 640;
+        var workTimeOne = 8;
+        var peopleWork = workTime / workTimeOne;
+        System.out.println("Всего работников в компании "+ peopleWork + " человек");
+
+        var workPeoplePlus = peopleWork + 94;
+        var workHours = workPeoplePlus * workTimeOne;
+        System.out.println("Если в компании работает " + workPeoplePlus + " человек, то всего " + workHours + " часов работы может быть поделено между сотрудниками");
 
     }
 }
